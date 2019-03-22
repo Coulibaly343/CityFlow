@@ -2,9 +2,8 @@
 
 namespace CityFlow.Core.Entity
 {
-    public class City
+    public class City : BaseEntity
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public ICollection<Vehicle> Vehicles  { get; set; }
     }

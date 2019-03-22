@@ -1,10 +1,9 @@
-﻿using CityFlow.Core.Entity.Enums;
+using CityFlow.Core.Entity.Enums;
 
-namespace CityFlow.Core.Entity
+namespace CityFlow.Infrastructure.Commands
 {
-    public class  Vehicle
+    public class VehicleToAdd
     {
-        public int Id { get; set; }
         public VehicleTypeEnum Type { get; set; }
         public string Longitude { get; set; }
         public string Latitude { get; set; }

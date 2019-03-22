@@ -1,4 +1,6 @@
-﻿namespace CityFlow.Core.Entity
+﻿using CityFlow.Core.Entity.Enums;
+
+namespace CityFlow.Core.Entity
 {
     public class Vehicle
     {

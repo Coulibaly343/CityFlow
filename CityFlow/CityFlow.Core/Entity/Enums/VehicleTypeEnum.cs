@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CityFlow.Core.Entity
+namespace CityFlow.Core.Entity.Enums
 {
     public enum VehicleTypeEnum
     {

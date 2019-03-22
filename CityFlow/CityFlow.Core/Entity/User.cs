@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CityFlow.Core.Entity
+﻿namespace CityFlow.Core.Entity
 {
     public class User : BaseEntity
     {
         public string Name { get; set; }
+        public string Longitude { get; set; }
+        public string Latitude { get; set; }
     }
 }

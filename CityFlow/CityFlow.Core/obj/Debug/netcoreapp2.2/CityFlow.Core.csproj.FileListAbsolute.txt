@@ -1,0 +1,9 @@
+C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Core\bin\Debug\netcoreapp2.2\CityFlow.Core.deps.json
+C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Core\bin\Debug\netcoreapp2.2\CityFlow.Core.dll
+C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Core\bin\Debug\netcoreapp2.2\CityFlow.Core.pdb
+C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Core\obj\Debug\netcoreapp2.2\CityFlow.Core.csprojAssemblyReference.cache
+C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Core\obj\Debug\netcoreapp2.2\CityFlow.Core.csproj.CoreCompileInputs.cache
+C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Core\obj\Debug\netcoreapp2.2\CityFlow.Core.AssemblyInfoInputs.cache
+C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Core\obj\Debug\netcoreapp2.2\CityFlow.Core.AssemblyInfo.cs
+C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Core\obj\Debug\netcoreapp2.2\CityFlow.Core.dll
+C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Core\obj\Debug\netcoreapp2.2\CityFlow.Core.pdb

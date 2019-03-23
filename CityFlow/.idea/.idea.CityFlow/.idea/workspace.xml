@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5c4a9d9-22a2-4fb6-8587-81371f5ee34b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CityFlow.Api/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CityFlow.Api/Controllers/UserController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="e5c4a9d9-22a2-4fb6-8587-81371f5ee34b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,20 +23,77 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5451578">
+    <splitter split-orientation="horizontal" split-proportion="0.46898803">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/CityFlow.Infrastructure/Data/CityFlowContext.cs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="256">
-                  <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+                  <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
                   <folding>
-                    <marker date="1553292892883" expanded="false" signature="6:64" ph="..." />
-                    <marker date="1553292892883" expanded="true" signature="104:569" ph="{...}" />
-                    <marker date="1553292892883" expanded="true" signature="151:567" ph="{...}" />
-                    <marker date="1553292892883" expanded="true" signature="247:267" ph="{...}" />
-                    <marker date="1553292892883" expanded="true" signature="492:561" ph="{...}" />
+                    <marker date="1553307379845" expanded="false" signature="6:64" ph="..." />
+                    <marker date="1553307379845" expanded="true" signature="104:623" ph="{...}" />
+                    <marker date="1553307379845" expanded="true" signature="151:621" ph="{...}" />
+                    <marker date="1553307379845" expanded="true" signature="247:267" ph="{...}" />
+                    <marker date="1553307379845" expanded="true" signature="546:615" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/CityFlow.Core/Entity/Address.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="32">
+                  <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+                  <folding>
+                    <marker date="1553306007944" expanded="true" signature="30:312" ph="{...}" />
+                    <marker date="1553306007944" expanded="true" signature="70:310" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/CityFlow.Infrastructure/Data/DbInitializer.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2240">
+                  <caret line="143" column="36" lean-forward="true" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
+                  <folding>
+                    <marker date="1553307435238" expanded="false" signature="6:114" ph="..." />
+                    <marker date="1553307435238" expanded="true" signature="154:7967" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="187:7965" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="402:512" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="563:584" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="640:1451" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="779:1441" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="844:1391" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="1133:1373" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="1510:5481" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="1660:2327" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="1732:2232" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="2450:3128" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="2522:3033" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="3248:3914" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="3320:3819" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="4036:4693" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="4108:4598" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="4815:5471" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="4887:5376" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="5541:7500" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="5718:6270" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="5790:6174" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="6040:6156" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="6402:6886" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="6474:6790" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="6704:6772" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="7012:7490" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="7084:7394" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="7308:7376" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="7556:7959" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="7693:7949" ph="{...}" />
+                    <marker date="1553307435238" expanded="true" signature="7758:7899" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -47,7 +102,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/CityFlow.Api/Controllers/ValuesController.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="269">
+                <state relative-caret-position="512">
                   <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
                   <folding>
                     <marker date="1553292892847" expanded="false" signature="6:128" ph="..." />
@@ -111,33 +166,19 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/CityFlow.Api/Controllers/CityController.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="228">
-                  <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+                <state relative-caret-position="338">
+                  <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
                   <folding>
-                    <marker date="1553304974623" expanded="true" signature="6:200" ph="..." />
-                    <marker date="1553304974623" expanded="true" signature="236:869" ph="{...}" />
-                    <marker date="1553304974623" expanded="true" signature="283:867" ph="{...}" />
-                    <marker date="1553304974623" expanded="true" signature="406:466" ph="{...}" />
-                    <marker date="1553304974623" expanded="true" signature="563:834" ph="{...}" />
-                    <marker date="1553304974623" expanded="true" signature="589:718" ph="{...}" />
-                    <marker date="1553304974623" expanded="true" signature="750:824" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/CityFlow.Infrastructure/Services/Interfaces/ICityService.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-                  <folding>
-                    <marker date="1553303766235" expanded="true" signature="6:131" ph="..." />
-                    <marker date="1553303766235" expanded="true" signature="186:373" ph="{...}" />
-                    <marker date="1553303766235" expanded="true" signature="222:371" ph="{...}" />
+                    <marker date="1553307278731" expanded="true" signature="6:200" ph="..." />
+                    <marker date="1553307278731" expanded="true" signature="236:850" ph="{...}" />
+                    <marker date="1553307278731" expanded="true" signature="283:848" ph="{...}" />
+                    <marker date="1553307278731" expanded="true" signature="406:466" ph="{...}" />
+                    <marker date="1553307278731" expanded="true" signature="563:834" ph="{...}" />
+                    <marker date="1553307278731" expanded="true" signature="589:718" ph="{...}" />
+                    <marker date="1553307278731" expanded="true" signature="750:824" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -176,25 +217,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/CityFlow.Infrastructure/Commands/CityWithVehiclesToAdd.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="128">
-                  <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-                  <folding>
-                    <marker date="1553303249731" expanded="true" signature="6:61" ph="..." />
-                    <marker date="1553303249731" expanded="true" signature="105:260" ph="{...}" />
-                    <marker date="1553303249731" expanded="true" signature="146:258" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/CityFlow.Core/Entity/Vehicle.cs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="224">
@@ -213,39 +240,8 @@
                 <state relative-caret-position="32">
                   <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
                   <folding>
-                    <marker date="1553306007945" expanded="true" signature="65:289" ph="{...}" />
-                    <marker date="1553306007945" expanded="true" signature="95:287" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/CityFlow.Core/Entity/City.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-                  <folding>
-                    <marker date="1553294244523" expanded="true" signature="65:217" ph="{...}" />
-                    <marker date="1553294244523" expanded="true" signature="102:215" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/CityFlow.Api/Controllers/UserController.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="164">
-                  <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-                  <folding>
-                    <marker date="1553307021943" expanded="true" signature="6:126" ph="..." />
-                    <marker date="1553307021943" expanded="true" signature="162:765" ph="{...}" />
-                    <marker date="1553307021943" expanded="true" signature="209:763" ph="{...}" />
-                    <marker date="1553307021943" expanded="true" signature="324:384" ph="{...}" />
-                    <marker date="1553307021943" expanded="true" signature="480:757" ph="{...}" />
-                    <marker date="1553307021943" expanded="true" signature="506:641" ph="{...}" />
-                    <marker date="1553307021943" expanded="true" signature="673:747" ph="{...}" />
+                    <marker date="1553307379831" expanded="true" signature="65:291" ph="{...}" />
+                    <marker date="1553307379831" expanded="true" signature="95:289" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -274,7 +270,9 @@
     <setting file="file://$PROJECT_DIR$/CityFlow.Infrastructure/Services/VehicleService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CityFlow.Core/Entity/Vehicle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CityFlow.Infrastructure/Services/CityService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CityFlow.Core/Entity/Address.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CityFlow.Infrastructure/Commands/CityWithVehiclesToAdd.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CityFlow.Infrastructure/Data/DbInitializer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CityFlow.Infrastructure/Data/CityFlowContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CityFlow.Core/Entity/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -288,11 +286,13 @@
         <option value="$PROJECT_DIR$/CityFlow.Infrastructure/Commands/CityWithVehiclesToAdd.cs" />
         <option value="$PROJECT_DIR$/CityFlow.Infrastructure/Services/Interfaces/ICityService.cs" />
         <option value="$PROJECT_DIR$/CityFlow.Infrastructure/Services/CityService.cs" />
-        <option value="$PROJECT_DIR$/CityFlow.Api/Controllers/CityController.cs" />
         <option value="$PROJECT_DIR$/CityFlow.Infrastructure/Services/VehicleService.cs" />
         <option value="$PROJECT_DIR$/CityFlow.Core/Entity/Vehicle.cs" />
         <option value="$PROJECT_DIR$/CityFlow.Infrastructure/Commands/VehicleToAdd.cs" />
         <option value="$PROJECT_DIR$/CityFlow.Api/Controllers/UserController.cs" />
+        <option value="$PROJECT_DIR$/CityFlow.Api/Controllers/CityController.cs" />
+        <option value="$PROJECT_DIR$/CityFlow.Core/Entity/Address.cs" />
+        <option value="$PROJECT_DIR$/CityFlow.Infrastructure/Data/DbInitializer.cs" />
       </list>
     </option>
   </component>
@@ -358,20 +358,7 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="CityFlow" type="24d0babc:SolutionExplorerModelNode" />
               <item name="CityFlow.Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Repositories" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="CityFlow" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="CityFlow.Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="CityFlow" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="CityFlow.Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Interfaces" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -430,7 +417,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10002000" />
+    <option name="totallyTimeSpent" value="10462000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,9 +430,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -463,7 +449,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="REST Client" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49757674" visible="true" weight="0.26164383" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.49757674" visible="true" weight="0.26164383" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5024233" side_tool="true" weight="0.2984375" />
       <window_info anchor="bottom" id="Build" order="15" sideWeight="0.4983845" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -504,20 +490,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CityFlow.Infrastructure/Data/CityFlowContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-          <folding>
-            <marker date="1553292892883" expanded="false" signature="6:64" ph="..." />
-            <marker date="1553292892883" expanded="true" signature="104:569" ph="{...}" />
-            <marker date="1553292892883" expanded="true" signature="151:567" ph="{...}" />
-            <marker date="1553292892883" expanded="true" signature="247:267" ph="{...}" />
-            <marker date="1553292892883" expanded="true" signature="492:561" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CityFlow.Infrastructure/Repositories/Interfaces/IRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -526,25 +498,6 @@
             <marker date="1553294244526" expanded="false" signature="6:63" ph="..." />
             <marker date="1553294244526" expanded="true" signature="122:445" ph="{...}" />
             <marker date="1553294244526" expanded="true" signature="160:443" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CityFlow.Infrastructure/Repositories/Repository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <marker date="1553297821411" expanded="false" signature="6:252" ph="..." />
-            <marker date="1553297821411" expanded="true" signature="300:1817" ph="{...}" />
-            <marker date="1553297821411" expanded="true" signature="371:1815" ph="{...}" />
-            <marker date="1553297821411" expanded="true" signature="480:532" ph="{...}" />
-            <marker date="1553297821411" expanded="true" signature="578:699" ph="{...}" />
-            <marker date="1553297821411" expanded="true" signature="743:857" ph="{...}" />
-            <marker date="1553297821411" expanded="true" signature="908:1071" ph="{...}" />
-            <marker date="1553297821411" expanded="true" signature="1162:1345" ph="{...}" />
-            <marker date="1553297821411" expanded="true" signature="1420:1651" ph="{...}" />
-            <marker date="1553297821411" expanded="true" signature="1695:1809" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -618,40 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CityFlow.Infrastructure/Services/Interfaces/IUserService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <marker date="1553294821060" expanded="false" signature="6:57" ph="..." />
-            <marker date="1553294821060" expanded="true" signature="112:256" ph="{...}" />
-            <marker date="1553294821060" expanded="true" signature="148:254" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CityFlow.Core/Entity/City.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <marker date="1553294244523" expanded="true" signature="65:217" ph="{...}" />
-            <marker date="1553294244523" expanded="true" signature="102:215" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CityFlow.Core/Entity/Vehicle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <marker date="1553306165150" expanded="true" signature="65:453" ph="{...}" />
-            <marker date="1553306165150" expanded="true" signature="105:451" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CityFlow.Infrastructure/Services/VehicleService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -681,20 +600,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CityFlow.Api/Controllers/UserController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <marker date="1553307245852" expanded="true" signature="6:154" ph="..." />
+            <marker date="1553307245852" expanded="true" signature="190:591" ph="{...}" />
+            <marker date="1553307245852" expanded="true" signature="237:589" ph="{...}" />
+            <marker date="1553307245852" expanded="true" signature="352:412" ph="{...}" />
+            <marker date="1553307245852" expanded="true" signature="499:583" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CityFlow.Core/Entity/City.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <marker date="1553307379834" expanded="true" signature="65:277" ph="{...}" />
+            <marker date="1553307379834" expanded="true" signature="102:275" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CityFlow.Api/Controllers/CityController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <marker date="1553307278731" expanded="true" signature="6:200" ph="..." />
+            <marker date="1553307278731" expanded="true" signature="236:850" ph="{...}" />
+            <marker date="1553307278731" expanded="true" signature="283:848" ph="{...}" />
+            <marker date="1553307278731" expanded="true" signature="406:466" ph="{...}" />
+            <marker date="1553307278731" expanded="true" signature="563:834" ph="{...}" />
+            <marker date="1553307278731" expanded="true" signature="589:718" ph="{...}" />
+            <marker date="1553307278731" expanded="true" signature="750:824" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CityFlow.Core/Entity/BaseEntity.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding>
-            <marker date="1553306007945" expanded="true" signature="65:289" ph="{...}" />
-            <marker date="1553306007945" expanded="true" signature="95:287" ph="{...}" />
+            <marker date="1553307379831" expanded="true" signature="65:291" ph="{...}" />
+            <marker date="1553307379831" expanded="true" signature="95:289" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CityFlow.Core/Entity/Vehicle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <marker date="1553306165150" expanded="true" signature="65:453" ph="{...}" />
+            <marker date="1553306165150" expanded="true" signature="105:451" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CityFlow.Infrastructure/Services/Interfaces/IUserService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <marker date="1553294821060" expanded="false" signature="6:57" ph="..." />
+            <marker date="1553294821060" expanded="true" signature="112:256" ph="{...}" />
+            <marker date="1553294821060" expanded="true" signature="148:254" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CityFlow.Api/Controllers/ValuesController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
+        <state relative-caret-position="512">
           <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
             <marker date="1553292892847" expanded="false" signature="6:128" ph="..." />
@@ -709,34 +692,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CityFlow.Api/Controllers/CityController.cs">
+    <entry file="file://$PROJECT_DIR$/CityFlow.Infrastructure/Repositories/Repository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="30">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
-            <marker date="1553304974623" expanded="true" signature="6:200" ph="..." />
-            <marker date="1553304974623" expanded="true" signature="236:869" ph="{...}" />
-            <marker date="1553304974623" expanded="true" signature="283:867" ph="{...}" />
-            <marker date="1553304974623" expanded="true" signature="406:466" ph="{...}" />
-            <marker date="1553304974623" expanded="true" signature="563:834" ph="{...}" />
-            <marker date="1553304974623" expanded="true" signature="589:718" ph="{...}" />
-            <marker date="1553304974623" expanded="true" signature="750:824" ph="{...}" />
+            <marker date="1553297821411" expanded="false" signature="6:252" ph="..." />
+            <marker date="1553297821411" expanded="true" signature="300:1817" ph="{...}" />
+            <marker date="1553297821411" expanded="true" signature="371:1815" ph="{...}" />
+            <marker date="1553297821411" expanded="true" signature="480:532" ph="{...}" />
+            <marker date="1553297821411" expanded="true" signature="578:699" ph="{...}" />
+            <marker date="1553297821411" expanded="true" signature="743:857" ph="{...}" />
+            <marker date="1553297821411" expanded="true" signature="908:1071" ph="{...}" />
+            <marker date="1553297821411" expanded="true" signature="1162:1345" ph="{...}" />
+            <marker date="1553297821411" expanded="true" signature="1420:1651" ph="{...}" />
+            <marker date="1553297821411" expanded="true" signature="1695:1809" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CityFlow.Api/Controllers/UserController.cs">
+    <entry file="file://$PROJECT_DIR$/CityFlow.Infrastructure/Data/CityFlowContext.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="256">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
           <folding>
-            <marker date="1553307021943" expanded="true" signature="6:126" ph="..." />
-            <marker date="1553307021943" expanded="true" signature="162:765" ph="{...}" />
-            <marker date="1553307021943" expanded="true" signature="209:763" ph="{...}" />
-            <marker date="1553307021943" expanded="true" signature="324:384" ph="{...}" />
-            <marker date="1553307021943" expanded="true" signature="480:757" ph="{...}" />
-            <marker date="1553307021943" expanded="true" signature="506:641" ph="{...}" />
-            <marker date="1553307021943" expanded="true" signature="673:747" ph="{...}" />
+            <marker date="1553307379845" expanded="false" signature="6:64" ph="..." />
+            <marker date="1553307379845" expanded="true" signature="104:623" ph="{...}" />
+            <marker date="1553307379845" expanded="true" signature="151:621" ph="{...}" />
+            <marker date="1553307379845" expanded="true" signature="247:267" ph="{...}" />
+            <marker date="1553307379845" expanded="true" signature="546:615" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CityFlow.Core/Entity/Address.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <marker date="1553306007944" expanded="true" signature="30:312" ph="{...}" />
+            <marker date="1553306007944" expanded="true" signature="70:310" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CityFlow.Infrastructure/Data/DbInitializer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2240">
+          <caret line="143" column="36" lean-forward="true" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
+          <folding>
+            <marker date="1553307435238" expanded="false" signature="6:114" ph="..." />
+            <marker date="1553307435238" expanded="true" signature="154:7967" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="187:7965" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="402:512" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="563:584" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="640:1451" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="779:1441" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="844:1391" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="1133:1373" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="1510:5481" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="1660:2327" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="1732:2232" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="2450:3128" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="2522:3033" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="3248:3914" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="3320:3819" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="4036:4693" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="4108:4598" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="4815:5471" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="4887:5376" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="5541:7500" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="5718:6270" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="5790:6174" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="6040:6156" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="6402:6886" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="6474:6790" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="6704:6772" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="7012:7490" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="7084:7394" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="7308:7376" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="7556:7959" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="7693:7949" ph="{...}" />
+            <marker date="1553307435238" expanded="true" signature="7758:7899" ph="{...}" />
           </folding>
         </state>
       </provider>

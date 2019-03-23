@@ -32,8 +32,8 @@ namespace CityFlow.Infrastructure.Data
                 {
                     FirstName = "John",
                     LastName = "Adams",
-                    Latitude = 50.06f,
-                    Longitude = 19.94f,
+                    Latitude = "50.064752",
+                    Longitude = "19.944520",
                     MarkerType = MarkerTypeEnum.User,
                     Address = new Address()
                     {
@@ -65,8 +65,8 @@ namespace CityFlow.Infrastructure.Data
                     IsAvailiable = true,
                     Description = "Your car for save drive to home.",
                     NumberOfSeats = 5,
-                    Latitude = 50.06f,
-                    Longitude = 19.94f
+                    Latitude = "50.066068",
+                    Longitude = "19.944332"
                 };
                 context.Add(vehicle1);
                 _vehicles.Add(vehicle1);
@@ -86,8 +86,8 @@ namespace CityFlow.Infrastructure.Data
                     IsAvailiable = true,
                     Description = "Nexet generation of transport. ECOFriendly.",
                     NumberOfSeats = 2,
-                    Latitude = 50.06f,
-                    Longitude = 19.94f
+                    Latitude = "50.065021",
+                    Longitude = "19.950654"
                 };
                 context.Add(vehicle2);
                 _vehicles.Add(vehicle2);

@@ -18,7 +18,10 @@ namespace CityFlow.Infrastructure.Data
 
         public void Seed(CityFlowContext context)
         {
-
+            SeedUsers(context);
+            SeedVehicles(context);
+            SeedCompanies(context);
+            SeedCity(context);
         }
 
         public void SeedUsers(CityFlowContext context)
@@ -45,6 +48,7 @@ namespace CityFlow.Infrastructure.Data
                     }
                 };
                 context.Add(user);
+                context.SaveChanges();
             }
         }
 
@@ -155,6 +159,8 @@ namespace CityFlow.Infrastructure.Data
                 context.Add(vehicle5);
                 _vehicles.Add(vehicle5);
             }
+
+            context.SaveChanges();
         }
 
         public void SeedCompanies(CityFlowContext context)
@@ -169,11 +175,7 @@ namespace CityFlow.Infrastructure.Data
                     Name = "Sixt Rent a Car - Krakow Meet&Greet",
                     Latitude = "50.060827",
                     Longitude = "19.944591",
-                    AvailiableVehicleTypes = new List<VehicleTypeEnum>()
-                    {
-                        VehicleTypeEnum.Car,
-                        VehicleTypeEnum.Scooter
-                    }
+                    AvailiableVehicleType = VehicleTypeEnum.Car
                 };
                 context.Add(company1);
                 _companies.Add(company1);
@@ -188,10 +190,7 @@ namespace CityFlow.Infrastructure.Data
                     Name = "OSEK Rent a Car",
                     Latitude = "50.060136",
                     Longitude = "19.939259",
-                    AvailiableVehicleTypes = new List<VehicleTypeEnum>()
-                    {
-                        VehicleTypeEnum.Car,
-                    }
+                    AvailiableVehicleType = VehicleTypeEnum.Car
                 };
                 context.Add(company2);
                 _companies.Add(company2);
@@ -206,17 +205,16 @@ namespace CityFlow.Infrastructure.Data
                     Name = "Mastercar",
                     Latitude = "50.065515",
                     Longitude = "19.945106",
-                    AvailiableVehicleTypes = new List<VehicleTypeEnum>()
-                    {
-                        VehicleTypeEnum.Car,
-                    }
+                    AvailiableVehicleType = VehicleTypeEnum.Car
                 };
                 context.Add(company3);
                 _companies.Add(company3);
             }
+
+            context.SaveChanges();
         }
 
-        public void SeedCity (CityFlowContext context)
+        public void SeedCity(CityFlowContext context)
         {
             var city =
                 context.Cities.SingleOrDefault(x => x.Name == "Cracow");
@@ -231,6 +229,8 @@ namespace CityFlow.Infrastructure.Data
                 };
                 context.Add(city);
             }
+
+            context.SaveChanges();
         }
     }
 }

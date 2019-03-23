@@ -22,3 +22,5 @@ C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Infrastructure\obj\Debug\netco
 C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Infrastructure\obj\Debug\netcoreapp2.2\CityFlow.Infrastructure.csproj.CopyComplete
 C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Infrastructure\obj\Debug\netcoreapp2.2\CityFlow.Infrastructure.dll
 C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Infrastructure\obj\Debug\netcoreapp2.2\CityFlow.Infrastructure.pdb
+C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Infrastructure\bin\Debug\netcoreapp2.2\CityFlow.Infrastructure.runtimeconfig.json
+C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Infrastructure\bin\Debug\netcoreapp2.2\CityFlow.Infrastructure.runtimeconfig.dev.json

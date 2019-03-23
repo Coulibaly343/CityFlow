@@ -27,15 +27,18 @@ namespace CityFlow.Api
             );
             services.AddCors();
             services.AddDbContext<CityFlowContext>(opt =>
-                opt.UseSqlServer(Configuration.GetConnectionString("MsSqlDatabase"),
+                opt.UseSqlServer(Configuration.GetConnectionString("CityFlow"),
                     b => b.MigrationsAssembly("CityFlow.Api")));
-
-            
         }
 
         public virtual void Migrate(IServiceScope serviceScope)
         {
             serviceScope.ServiceProvider.GetService<CityFlowContext>().Database.Migrate();
+        }
+
+        public virtual void SeedData(IServiceScope serviceScope)
+        {
+            DbInitializer.Initialize(serviceScope.ServiceProvider.GetService<CityFlowContext>());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,6 +52,12 @@ namespace CityFlow.Api
             {
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
+            }
+
+            using (var serviceScope = app.ApplicationServices.CreateScope())
+            {
+                Migrate(serviceScope);
+                SeedData(serviceScope);
             }
 
             app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().AllowCredentials());

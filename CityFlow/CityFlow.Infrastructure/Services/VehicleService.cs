@@ -26,8 +26,6 @@ namespace CityFlow.Infrastructure.Services
                 Price = vehicleToAdd.Price,
                 Type = vehicleToAdd.Type, 
                 GearBoxType = vehicleToAdd.GearBoxType,
-                Longitude = vehicleToAdd.Longitude,
-                Latitude = vehicleToAdd.Latitude,
                 IsAvailiable = vehicleToAdd.IsAvailiable,
                 Description = vehicleToAdd.Description,
                 NumberOfSeats = vehicleToAdd.NumberOfSeats,

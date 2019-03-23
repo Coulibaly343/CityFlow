@@ -2,8 +2,8 @@
 {
     public class User : BaseEntity
     {
-        public string Name { get; set; }
-        public string Longitude { get; set; }
-        public string Latitude { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public Address Address { get; set; }
     }
 }

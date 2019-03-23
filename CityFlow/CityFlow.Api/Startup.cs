@@ -1,4 +1,6 @@
 ﻿using CityFlow.Infrastructure.Data;
+using CityFlow.Infrastructure.Repositories;
+using CityFlow.Infrastructure.Repositories.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -27,6 +29,8 @@ namespace CityFlow.Api
             services.AddDbContext<CityFlowContext>(opt =>
                 opt.UseSqlServer(Configuration.GetConnectionString("MsSqlDatabase"),
                     b => b.MigrationsAssembly("CityFlow.Api")));
+
+            
         }
 
         public virtual void Migrate(IServiceScope serviceScope)

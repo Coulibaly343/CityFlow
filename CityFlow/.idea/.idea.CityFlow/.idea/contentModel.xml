@@ -12,6 +12,8 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="CityFlow.Api.csproj" t="IncludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="CityController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
           <e p="ValuesController.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -53,8 +55,8 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="CityFlow.Infrastructure.csproj" t="IncludeRecursive" />
         <e p="Commands" t="Include">
+          <e p="CityWithVehiclesToAdd.cs" t="Include" />
           <e p="VehicleToAdd.cs" t="Include" />
-          <e p="VehicleToUpdate.cs" t="Include" />
         </e>
         <e p="Data" t="Include">
           <e p="CityFlowContext.cs" t="Include" />
@@ -74,12 +76,14 @@
           <e p="Repository.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
+          <e p="CityService.cs" t="Include" />
           <e p="Interfaces" t="Include">
             <e p="ICityService.cs" t="Include" />
             <e p="IUserService.cs" t="Include" />
             <e p="IVehicleService.cs" t="Include" />
           </e>
           <e p="UserService.cs" t="Include" />
+          <e p="VehicleService.cs" t="Include" />
         </e>
       </e>
       <e p="CityFlow.sln" t="IncludeFlat" />

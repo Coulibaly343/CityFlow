@@ -107,8 +107,8 @@ namespace CityFlow.Infrastructure.Data
                     IsAvailiable = true,
                     Description = "Your driver is near.Take a drive to home.",
                     NumberOfSeats = 2,
-                    Latitude = 50.06f,
-                    Longitude = 19.94f
+                    Latitude = "50.065573",
+                    Longitude = "19.935364"
                 };
                 context.Add(vehicle3);
                 _vehicles.Add(vehicle3);
@@ -128,8 +128,8 @@ namespace CityFlow.Infrastructure.Data
                     IsAvailiable = true,
                     Description = "Get your cheap ride to home.",
                     NumberOfSeats = 5,
-                    Latitude = 50.06f,
-                    Longitude = 19.94f
+                    Latitude = "50.062832",
+                    Longitude = "19.945749"
                 };
                 context.Add(vehicle4);
                 _vehicles.Add(vehicle4);
@@ -149,8 +149,8 @@ namespace CityFlow.Infrastructure.Data
                     IsAvailiable = true,
                     Description = "Healthy means of transport.",
                     NumberOfSeats = 1,
-                    Latitude = 50.06f,
-                    Longitude = 19.94f
+                    Latitude = "50.065125",
+                    Longitude = "19.943389"
                 };
                 context.Add(vehicle5);
                 _vehicles.Add(vehicle5);
@@ -160,15 +160,15 @@ namespace CityFlow.Infrastructure.Data
         public void SeedCompanies(CityFlowContext context)
         {
             var company1 =
-                context.Companies.SingleOrDefault(x => x.Name == "High Class Rent Kraków");
+                context.Companies.SingleOrDefault(x => x.Name == "Sixt Rent a Car - Krakow Meet&Greet");
 
             if (company1 is null)
             {
                 company1 = new Company()
                 {
-                    Name = "High Class Rent Kraków",
-                    Latitude = 50.06f,
-                    Longitude = 19.90f,
+                    Name = "Sixt Rent a Car - Krakow Meet&Greet",
+                    Latitude = "50.060827",
+                    Longitude = "19.944591",
                     AvailiableVehicleTypes = new List<VehicleTypeEnum>()
                     {
                         VehicleTypeEnum.Car,
@@ -179,80 +179,40 @@ namespace CityFlow.Infrastructure.Data
                 _companies.Add(company1);
             }
 
-            var vehicle2 = context.Vehicles.SingleOrDefault(x => x.Name == "Blinkee");
+            var company2 = context.Companies.SingleOrDefault(x => x.Name == "OSEK Rent a Car");
 
-            if (vehicle2 is null)
+            if (company2 is null)
             {
-                vehicle2 = new Vehicle()
+                company2 = new Company()
                 {
-                    Name = "Blinkee",
-                    PricePerKilometer = 1.00m,
-                    MarkerType = MarkerTypeEnum.Blinkee,
-                    Type = VehicleTypeEnum.Scooter,
-                    GearBoxType = GearBoxTypeEnum.Automatic,
-                    IsAvailiable = true,
-                    Description = "Nexet generation of transport. ECOFriendly.",
-                    NumberOfSeats = 2,
+                    Name = "OSEK Rent a Car",
+                    Latitude = "50.060136",
+                    Longitude = "19.939259",
+                    AvailiableVehicleTypes = new List<VehicleTypeEnum>()
+                    {
+                        VehicleTypeEnum.Car,
+                    }
                 };
-                context.Add(vehicle2);
-                _vehicles.Add(vehicle2);
+                context.Add(company2);
+                _companies.Add(company2);
             }
 
-            var vehicle3 = context.Vehicles.SingleOrDefault(x => x.Name == "Uber");
+            var company3 = context.Companies.SingleOrDefault(x => x.Name == "Mastercar");
 
-            if (vehicle3 is null)
+            if (company3 is null)
             {
-                vehicle3 = new Vehicle()
+                company3 = new Company()
                 {
-                    Name = "Uber",
-                    PricePerKilometer = 1.90m,
-                    MarkerType = MarkerTypeEnum.Uber,
-                    Type = VehicleTypeEnum.Car,
-                    GearBoxType = GearBoxTypeEnum.Automatic,
-                    IsAvailiable = true,
-                    Description = "Your driver is near.Take a drive to home.",
-                    NumberOfSeats = 2,
+                    Name = "Mastercar",
+                    Latitude = "50.065515",
+                    Longitude = "19.945106",
+                    AvailiableVehicleTypes = new List<VehicleTypeEnum>()
+                    {
+                        VehicleTypeEnum.Car,
+                    }
                 };
-                context.Add(vehicle3);
-                _vehicles.Add(vehicle3);
-            }
-
-            var vehicle4 = context.Vehicles.SingleOrDefault(x => x.Name == "Taxify");
-
-            if (vehicle4 is null)
-            {
-                vehicle4 = new Vehicle()
-                {
-                    Name = "Taxify",
-                    PricePerKilometer = 1.70m,
-                    MarkerType = MarkerTypeEnum.Taxify,
-                    Type = VehicleTypeEnum.Car,
-                    GearBoxType = GearBoxTypeEnum.Automatic,
-                    IsAvailiable = true,
-                    Description = "Get your cheap ride to home.",
-                    NumberOfSeats = 5,
-                };
-                context.Add(vehicle4);
-                _vehicles.Add(vehicle4);
-            }
-
-            var vehicle5 = context.Vehicles.SingleOrDefault(x => x.Name == "Wavelo");
-
-            if (vehicle5 is null)
-            {
-                vehicle5 = new Vehicle()
-                {
-                    Name = "Wavelo",
-                    PricePerKilometer = 1.70m,
-                    MarkerType = MarkerTypeEnum.Wavelo,
-                    Type = VehicleTypeEnum.Bicycyle,
-                    GearBoxType = GearBoxTypeEnum.None,
-                    IsAvailiable = true,
-                    Description = "Healthy means of transport.",
-                    NumberOfSeats = 1,
-                };
-                context.Add(vehicle5);
-                _vehicles.Add(vehicle5);
+                context.Add(company3);
+                _companies.Add(company3);
             }
         }
 
@@ -266,7 +226,8 @@ namespace CityFlow.Infrastructure.Data
                 city = new City()
                 {
                     Name = "Cracow",
-                    Vehicles = _vehicles
+                    Vehicles = _vehicles,
+                    Companies = _companies
                 };
                 context.Add(city);
             }

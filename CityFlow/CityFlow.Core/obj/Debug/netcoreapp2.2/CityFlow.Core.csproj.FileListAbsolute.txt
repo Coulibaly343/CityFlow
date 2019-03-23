@@ -15,3 +15,4 @@ C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Core\obj\Debug\netcoreapp2.2\C
 C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Core\obj\Debug\netcoreapp2.2\CityFlow.Core.AssemblyInfo.cs
 C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Core\obj\Debug\netcoreapp2.2\CityFlow.Core.dll
 C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Core\obj\Debug\netcoreapp2.2\CityFlow.Core.pdb
+C:\Users\amado\Desktop\CityFlow\CityFlow\CityFlow.Core\obj\Debug\netcoreapp2.2\CityFlow.Core.csprojAssemblyReference.cache

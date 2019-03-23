@@ -28,9 +28,6 @@ namespace CityFlow.Api.Controllers
             {
                 return BadRequest(e.Message);
             }
-        }
-        
-        
-        
+        }        
     }
 }

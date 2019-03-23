@@ -6,6 +6,8 @@
         Blinkee = 2,
         Uber = 3,
         Taxify = 4,
-        User = 5,
+        Wavelo = 5,
+        User = 6,
+        RentCompany = 7,
     }
 }

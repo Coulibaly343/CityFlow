@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_CityFlow.-1462314580.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="CityFlow.Api" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CityFlow.Api.csproj" t="IncludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="ValuesController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="CityFlow.Api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="CityFlow.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CityFlow.Core.csproj" t="IncludeRecursive" />
+        <e p="Entity" t="Include">
+          <e p="BaseEntity.cs" t="Include" />
+          <e p="City.cs" t="Include" />
+          <e p="Enums" t="Include">
+            <e p="IconTypeEnum.cs" t="Include" />
+            <e p="VehicleTypeEnum.cs" t="Include" />
+          </e>
+          <e p="User.cs" t="Include" />
+          <e p="Vehicle.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="CityFlow.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="CityFlow.Infrastructure" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CityFlow.Infrastructure.csproj" t="IncludeRecursive" />
+        <e p="Commands" t="Include">
+          <e p="VehicleToAdd.cs" t="Include" />
+        </e>
+        <e p="Data" t="Include">
+          <e p="CityFlowContext.cs" t="Include" />
+        </e>
+        <e p="Dto" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="CityFlow.Infrastructure.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="Interfaces" t="Include">
+            <e p="IRepository.cs" t="Include" />
+          </e>
+          <e p="Repository.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="Interfaces" t="Include">
+            <e p="ICityService.cs" t="Include" />
+            <e p="IUserService.cs" t="Include" />
+            <e p="IVehicleService.cs" t="Include" />
+          </e>
+          <e p="UserService.cs" t="Include" />
+        </e>
+      </e>
+      <e p="CityFlow.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
